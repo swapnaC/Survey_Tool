@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Survey Composition Tool</title>
+<link rel="stylesheet" type="text/css" href="css/RabbitSurvey.css">
+	
+</head>
+<body>
+
+	<h3>Composer Mode</h3>
+	<div id="main">
+		<div id="widgets">
+			<ul>
+				<li>Widgets</li>
+				<li id="RadioSelect"><img src="images/RadioButton.png">Radio</li>
+				<li id="CheckboxSelect"><img src="images/Checkbox.png">Checkbox</li>
+			</ul>
+		</div>
+	
+		<div id="composer">
+			<div>
+				<span>
+					<label for="s-title">Survey Title</label>
+					<input type="text" id="s-title" placeholder="Enter Survey Title here" autofocus />
+				</span>
+				<span>
+					<button id="Preview">Preview</button>
+				</span>
+					<div id="PreviewMode"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="RabbitSurvey.js"></script>
+</body>
+</html>
